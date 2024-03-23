@@ -21,7 +21,7 @@ BEGIN
     
     SET message = CONCAT(days, ' days ', hours, ' hours ', minutes, ' minutes ', seconds, ' seconds');
     
-	RETURN message;
+    RETURN message;
     
 END $$
 DELIMITER ;
@@ -43,7 +43,7 @@ BEGIN
 		INSERT INTO nums VALUES(n);
     END WHILE;
 
-	SELECT * FROM nums;
+    SELECT * FROM nums;
 END $$
 DELIMITER ;
 
